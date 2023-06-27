@@ -10,7 +10,7 @@ const about = {
   role: 'Deep Learning Enginner',
   description:
     "Hello, I'm undergraduate researcher in Sahmyook University. \nI'm interested in computer vision fields, including image restoration, panoptic segmentation, and application of AI to physical therapy. \nI hope my AI technology will soon have a great strength in the world.",
-  CV: 'https://example.com',
+  CV: 'https://docs.google.com/document/d/e/2PACX-1vSd_V5zVtDz-bSJBYrTlcy4MKCc5noUau8-quZAdMIyVysw5Zi18Yus9yPYBcYFRhLDWS9Rc7Ip4JcK/pub',
   social: {
     linkedin: 'https://www.linkedin.com/in/ohkingtaek/',
     github: 'https://github.com/ohkingtaek',

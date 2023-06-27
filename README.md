@@ -1,1 +1,4 @@
-# ohkingtaek.github.io
+# Wang-Taek Oh Portfolio
+
+- React
+- Javascript
