@@ -1,16 +1,14 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://ohkingtaek.github.io/',
-  title: 'KingTaek Portfolio',
+  title: 'OhKingTaek',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Wang-Taek Oh(오왕택)',
   role: 'Deep Learning Enginner',
   description:
-    "Hello, I'm undergraduate researcher in Sahmyook University. \nI'm interested in computer vision fields, including image restoration, panoptic segmentation, and application of AI to physical therapy. \nI hope my AI technology will soon have a great strength in the world.",
-  CV: 'https://docs.google.com/document/d/e/2PACX-1vSd_V5zVtDz-bSJBYrTlcy4MKCc5noUau8-quZAdMIyVysw5Zi18Yus9yPYBcYFRhLDWS9Rc7Ip4JcK/pub',
+    "Hello, I'm undergraduate researcher in Sahmyook University. \nI'm interested in computer vision fields, including Image Restoration, Multi Modal Learning, and application of AI to medicine. \nI hope my AI technology will soon have a great strength in the world.",
+  CV: 'https://docs.google.com/document/d/1-iZd9iQa5n-YG5HDDBT6QmNIyrnlgUGLl66bKXpdJZ4/edit',
   social: {
     linkedin: 'https://www.linkedin.com/in/ohkingtaek/',
     github: 'https://github.com/ohkingtaek',
@@ -93,10 +91,8 @@ const projects = [
 ]
 
 const awards = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'DNA+ 드론챌린지 지정공모I 실시간 AI 서비스 챌린지 \n 한국무인이동체연구조합 포럼상',
+    name: 'DNA+ 드론챌린지 지정공모I 실시간 드론 서비스 챌린지 \n 한국무인이동체연구조합 포럼상',
     description:
       '드론의 4K 카메라 이미지와 좌표 실시간 수신하여 YOLOv7과 DeepLabV3+를 사용하여 과제 수행',
     stack: ['Embedded System', 'YOLOv7', 'DeepLabV3+'],
@@ -112,7 +108,7 @@ const awards = [
     livePreview: '',
   },
   {
-    name: '월간 데이콘 숫자 3D 이미지 분류 AI 경진대회 은상',
+    name: '\n월간 데이콘 숫자 3D 이미지 분류 AI 경진대회 은상',
     description:
       'RandomPCA + EfficientNetB7(Noisy Student) + TTA',
     stack: ['PCA', 'EfficientNet', 'TTA', '3D Image Classification'],
@@ -138,8 +134,6 @@ const awards = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'Python',
   'PyTorch',
   'PyTorch-Lightning',
@@ -150,9 +144,9 @@ const skills = [
   'Docker',
 ]
 
-const contact = {
-  email: 'mm074111@gmail.com',
-  phone: '010-3289-5209'
-}
+const contacts = [
+  {email: 'mm074111@gmail.com'},
+  {phone: '010-3289-5209'}
+]
 
-export { header, about, papers, projects, awards, skills, contact }
+export { header, about, papers, projects, awards, skills, contacts }

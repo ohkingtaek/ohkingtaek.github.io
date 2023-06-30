@@ -1,3 +1,14 @@
 .contact {
+  margin: 0 auto;
+  display: grid;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contacts_list {
+  margin-top: 2.4em;
+}
+
+.contact .btn--outline {
+  margin-right: 1em;
 }
