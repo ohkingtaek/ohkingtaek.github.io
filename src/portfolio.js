@@ -77,7 +77,7 @@ const projects = [
     description:
       '컴퓨터 비전 딥러닝 기술을 활용하여 사용자가 입어보고 싶은 의상을 가상으로 피팅해주는 시스템',
     stack: ['Virtual Try-On', 'Semantic Segmentation', 'Pose Estimation', 'Human Parsing', 'ACGPN', 'TPS', 'SwinIR', 'PyTorch', 'PyQt'],
-    sourceCode: 'https://github.com/patrashu/clothes_matching/tree/master',
+    sourceCode: 'https://github.com/patrashu/clothes_matching',
     livePreview: '',
   },
   {
@@ -85,14 +85,14 @@ const projects = [
     description:
       '포토샵에 있는 기능인 이미지 기본 기능부터 딥러닝을 활용한 기술까지 활용하여 GUI 내에서 내 사진을 넣고 다양한 기능을 사용해볼 수 있는 프로그램',
     stack: ['API', 'Computer Vision', 'EfficientNet', 'YOLO', 'PyQt'],
-    sourceCode: 'https://github.com/patrashu/clothes_matching/tree/master',
+    sourceCode: 'https://github.com/ohkingtaek/Pyside_Photoshop',
     livePreview: '',
   },
 ]
 
 const awards = [
   {
-    name: 'DNA+ 드론챌린지 지정공모I 실시간 드론 서비스 챌린지 \n 한국무인이동체연구조합 포럼상',
+    name: 'DNA+ 드론챌린지 지정공모I 실시간 드론 서비스 챌린지 \n 한국무인이동체연구조합 \n포럼상',
     description:
       '드론의 4K 카메라 이미지와 좌표 실시간 수신하여 YOLOv7과 DeepLabV3+를 사용하여 과제 수행',
     stack: ['Embedded System', 'YOLOv7', 'DeepLabV3+'],
@@ -104,7 +104,7 @@ const awards = [
     description:
       '드론 시점의 이미지 데이터 부족을 해결하기 위해서, 가상 객체를 생성하는 알고리즘 개발 및 날씨 조건에 강건한 모델을 위해 CycleGAN을 활용한 이미지 증강으로 드론 챌린지 과제 수행하여 과기부 장관상 수상',
     stack: ['CycleGAN', 'DeepLabV3+', 'YOLOv7'],
-    sourceCode: 'https://github.com/patrashu/DNA_Drone_Challenge_2022',
+    sourceCode: '',
     livePreview: '',
   },
   {
