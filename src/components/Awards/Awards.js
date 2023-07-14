@@ -11,9 +11,9 @@ const Awards = () => {
             <h2 className='section__title'>Awards</h2>
 
             <div className='awards__grid'>
-            {awards.map((award) => (
-                <AwardContainer key={uniqid()} award={award} />
-            ))}
+                {awards.map((award) => (
+                    <AwardContainer key={uniqid()} award={award} />
+                ))}
             </div>
         </section>
     )

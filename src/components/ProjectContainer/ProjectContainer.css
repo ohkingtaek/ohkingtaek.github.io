@@ -5,6 +5,7 @@
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   white-space: pre-wrap;
+  cursor: pointer;
 }
 
 .project:hover {
@@ -31,4 +32,34 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  white-space: pre-wrap;
+  background-color: #273a3e;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+.modal__description {
+margin-top: 1em;
+margin-bottom: 0.4em;
+}
+
+.modal__role {
+margin-top: 1.4em;
+font-weight: 500;
+font-size: 1.3rem;
+color: var(--clr-fg-alt);
+}
+
+.modal__my_role {
+margin-top: 1em;
+margin-bottom: 2em;
 }
