@@ -9,6 +9,7 @@ const about = {
   description:
     "Hello, I'm undergraduate researcher in Sahmyook University. \nI'm interested in computer vision fields, including Image Restoration, Multi Modal Learning, and application of AI to medicine. \nI hope my AI technology will soon have a great strength in the world.",
   CV: 'https://docs.google.com/document/d/1-iZd9iQa5n-YG5HDDBT6QmNIyrnlgUGLl66bKXpdJZ4/edit',
+  Resume: 'https://docs.google.com/document/d/1-iZd9iQa5n-YG5HDDBT6QmNIyrnlgUGLl66bKXpdJZ4/edit',
   social: {
     linkedin: 'https://www.linkedin.com/in/ohkingtaek/',
     github: 'https://github.com/ohkingtaek',
@@ -56,18 +57,18 @@ const projects = [
     name: '\n\n건설현장의 위험요소 감지를 위한 딥러닝 기반 실시간 영상분석 시스템 개발',
     description:
       '\n작업자가 안전보호구를 착용했는지 Yolact, 후처리 알고리즘을 사용해 확인하고 모니터링 시스템을 개발하는 것',
-    detail_description: '',
-    project_duration: '2022.03.01 ~ 2023.02.28',
-    my_role:'딥러닝 모형 학습 및 추론 실험 & 모델 성능 향상',
+    detail_description: 'Yolact를 사용하여 클래스를 사람, 안전모, 안전조끼, 공사장비로 분할하는 작업\n 각각의 겹치는 정도를 알고리즘으로 분석하여 위험에 처있는지 판단\n건설현장 실시간 모니터링 시스템 개발을 목표',
+    project_duration: '2022-03-01 ~ 2023-02-28',
+    my_role:'Yolact 모형 학습 및 추론 실험 & 모델 성능 모니터링',
     stack: ['Yolact', 'Real-Time', 'Construction Safety'],
   },
   {
     name: '\n스마트 홈 카메라를 이용한 인공지능기반 영유아\n이상 징후 및 정상 운동발달 모니터링 연구',
     description:
       '인공지능 기반 영유아 이상 징후 데이터셋 \n구축(Azure Kinect 카메라와 자체 제작 \n뷰어 사용) 및 PyQt 사용하여 GUI 개발',
-    detail_description: '',
-    project_duration: '2022.06.01 ~ 2024.02.29',
-    my_role:'데이터셋 구축 & GUI 개발 & 딥러닝 모델 개발',
+    detail_description: '영유아의 우는 모습, 수면 시간, 체온 등의 건강 상태를 확인하기 위해\nIR, Depth 센서 기능이 탑재된 스마트 홈 카메라로 실시간 모니터링하여 문제 해결',
+    project_duration: '2022-06-01 ~ 2024-02-29(진행중)',
+    my_role:'데이터셋 구축, GUI 개발\n각 건강 상태 분석에 필요한 딥러닝 모델 연구',
     stack: ['Azure Kinect', 'PyQt'],
     sourceCode: 'https://github.com/patrashu/pykinect-recorder',
   },
@@ -75,9 +76,9 @@ const projects = [
     name: '산학연계 SW 캡스톤 디자인 프로젝트\n인공지능 기반 방문자 관리 시스템',
     description:
       '실제 매장 CCTV 영상을 활용하여 객체인식, 객체추적, 나이와 성별 예측 통해 시간별 방문자수, 연령대, 성별 시각화하여 마케팅 활용',
-    detail_description: '',
-    project_duration: '2023.03.02 ~ 2023.06.21',
-    my_role:'딥러닝 모델 학습 및 추론',
+    detail_description: '실제 카페에서 촬영한 다양한 시점의 카메라 영상을 활용하여\n손님의 연령대나 성별, 시간대별 방문자수를 객체인식과 추적 그리고 나이, 성별 예측 모델을 통해\n예측하여 마케팅에 활용하도록 시스템 개발',
+    project_duration: '2023-03-02 ~ 2023-06-21',
+    my_role:'AI Hub 한국인 재식별 데이터셋을 활용한 나이 & 성별 예측 모형 학습\nBoT-SORT 모형 성능 개선',
     stack: ['Object Detection', 'Object Tracking', 'Face Detection', 'EfficientNet', 'BoT-SORT', 'YOLOv8', 'PyTorch', 'PyTorch-Lightning', 'PyQt'],
     sourceCode: 'https://github.com/patrashu/cnai',
     livePreview: '',
@@ -86,9 +87,9 @@ const projects = [
     name: 'AI 양재 허브 인공지능 오픈소스 경진대회',
     description:
       '이미지 초해상화 모델인 SwinIR과 HAT-L을 통해 품질이 저하된 저해상도 촬영 이미지를 4배 높여 고품질로 만드는 작업',
-    detail_description: '',
-    project_duration: '',
-    my_role:'',
+    detail_description: '수도권 도시 풍경을 촬영한 저해상도 이미지(512x512)를 고해상도(2048x2048)로 해상도를 높이는 작업\nHAT-L과 SwinIR의 모델을 통해 Super Resolution 작업 진행\n추가로 Self-Ensemble과 TTA의 전략 사용',
+    project_duration: '2022-08-29 ~ 2022-10-26',
+    my_role:'HAT-L과 SwinIR 비교 실험, 학습 및 모니터링',
     stack: ['Super Resolution', 'SwinIR', 'HAT-L', 'Self-Ensemble', 'PyTorch'],
     sourceCode: 'https://github.com/ohkingtaek/Dacon_Super_Resolution',
     livePreview: 'https://dacon.io/competitions/official/235977/codeshare/6900?page=1&dtype=recent',
@@ -97,9 +98,9 @@ const projects = [
     name: '딥러닝 및 실습 프로젝트 \n딥러닝 기반 의상 교체 시스템',
     description:
       '컴퓨터 비전 딥러닝 기술을 활용하여 사용자가 입어보고 싶은 의상을 가상으로 피팅해주는 시스템',
-    detail_description: '',
-    project_duration: '',
-    my_role:'',
+    detail_description: '직접 매장에 가서 옷을 입어보고 피팅하는 번거로움을 해결하기 위해\n사람의 옷과 몸 부분 등을 Parsing과 전처리 통해 GAN에 들어갈 수 있게 만든 후\nACGPN과 TPS를 활용하여 사람의 옷을 가상으로 피팅해주는 시스템',
+    project_duration: '2023-04-26 ~ 2023-06-20',
+    my_role:'ACGPN 성능 향상, 결과 값인 이미지에 초해상화 적용',
     stack: ['Virtual Try-On', 'Semantic Segmentation', 'Pose Estimation', 'Human Parsing', 'ACGPN', 'TPS', 'SwinIR', 'PyTorch', 'PyQt'],
     sourceCode: 'https://github.com/patrashu/clothes_matching',
     livePreview: '',
@@ -108,9 +109,9 @@ const projects = [
     name: '컴퓨터 비전 프로젝트 \n딥러닝 기반 포토샵 프로그램',
     description:
       '포토샵에 있는 기능인 이미지 기본 기능부터 딥러닝을 활용한 기술까지 활용하여 GUI 내에서 내 사진을 넣고 다양한 기능을 사용해볼 수 있는 프로그램',
-    detail_description: '',
-    project_duration: '',
-    my_role:'',
+    detail_description: '이미지 불러오기 부터 이미지 조작, 딥러닝을 활용한 재밌는 실험까지 모두 구현\nPySide를 활용하여 GUI와 API를 활용한 딥러닝 구현',
+    project_duration: '2022-10-20 ~ 2022-12-08',
+    my_role:'개인 토이 프로젝트로 이미지 조작부터 딥러닝 기술, GUI까지 모두 구현',
     stack: ['API', 'Computer Vision', 'EfficientNet', 'YOLO', 'PyQt'],
     sourceCode: 'https://github.com/ohkingtaek/Pyside_Photoshop',
     livePreview: '',
@@ -180,8 +181,7 @@ const skills = [
   'Qt',
   'Slack',
   'Git',
-  'Docker',
-  'MLOps'
+  'Docker'
 ]
 
 const contacts = [

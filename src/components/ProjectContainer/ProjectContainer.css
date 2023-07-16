@@ -43,8 +43,8 @@
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   white-space: pre-wrap;
-  background-color: #273a3e;
-  border: 2px solid white;
+  background-color: var(--dialog-bg);
+  border: var(--dialog-border);
   border-radius: 30px;
 }
 .modal__description {
