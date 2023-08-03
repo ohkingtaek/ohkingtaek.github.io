@@ -9,7 +9,7 @@ const about = {
   description:
     "Hello, I'm undergraduate researcher in Sahmyook University. \nI'm interested in computer vision fields, including Image Restoration, Multi Modal Learning, and application of AI to medicine. \nI hope my AI technology will soon have a great strength in the world.",
   CV: 'https://docs.google.com/document/d/1-iZd9iQa5n-YG5HDDBT6QmNIyrnlgUGLl66bKXpdJZ4/edit',
-  Resume: 'https://docs.google.com/document/d/1-iZd9iQa5n-YG5HDDBT6QmNIyrnlgUGLl66bKXpdJZ4/edit',
+  // Resume: 'https://docs.google.com/document/d/1-iZd9iQa5n-YG5HDDBT6QmNIyrnlgUGLl66bKXpdJZ4/edit',
   social: {
     linkedin: 'https://www.linkedin.com/in/ohkingtaek/',
     github: 'https://github.com/ohkingtaek',
